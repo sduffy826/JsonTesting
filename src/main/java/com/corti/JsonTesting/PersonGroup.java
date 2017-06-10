@@ -5,10 +5,16 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 public class PersonGroup {
   
+  @JsonProperty("GroupName")  // Rename the group name in json
   private String groupName;
+  
+  @JsonProperty("IQ")    // Another example of a rename
   private int averageIq;
+  
   private double salary;
   private boolean isNerdy;
   
@@ -62,7 +68,7 @@ public class PersonGroup {
   public String getGroupName() {
     return groupName;
   }
-
+  
   public int getAverageIq() {
     return averageIq;
   }
