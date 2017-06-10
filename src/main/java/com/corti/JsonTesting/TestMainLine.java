@@ -8,8 +8,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 
 /**
- * Testing json
- *
+ * Simple little class to demonstrate som Json functionality *
  */
 public class TestMainLine 
 {
